@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>tzsb</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>All</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>/* @功能描述：&lt;#功能描述#&gt;
+* @创建时间：&lt;#2020#&gt;
+* @创建人：饶鸿平
+* @备注：&lt;#注意点#&gt;
+*/</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>F0923837-C25B-4ED6-A775-C6E263B7612F</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>带备注</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>OC文件注释</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>
