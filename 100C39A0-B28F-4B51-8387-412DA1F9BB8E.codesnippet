@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>o_cl</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>All</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>UILabel *&lt;#label#&gt; = [UILabel new];
+&lt;#label#&gt;.frame = CGRectMake(&lt;#0#&gt;, &lt;#0#&gt;, &lt;#100#&gt;, &lt;#30#&gt;);
+&lt;#label#&gt;.backgroundColor = &lt;#UIColorFromRGB(0xFFFFFF)#&gt;;
+&lt;#label#&gt;.text = @"&lt;#text#&gt;";
+&lt;#label#&gt;.textColor = &lt;#UIColorFromRGB(0x000000)#&gt;;
+&lt;#label#&gt;.font = [UIFont systemFontOfSize:&lt;#18#&gt;];
+&lt;#label#&gt;.textAlignment = &lt;#NSTextAlignmentCenter#&gt;;</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>100C39A0-B28F-4B51-8387-412DA1F9BB8E</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetPlatformFamily</key>
+	<string>iphoneos</string>
+	<key>IDECodeSnippetSummary</key>
+	<string></string>
+	<key>IDECodeSnippetTitle</key>
+	<string>o_create label-创建Label</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>

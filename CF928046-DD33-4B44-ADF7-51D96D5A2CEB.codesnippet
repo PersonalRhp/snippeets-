@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>o_rb</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>All</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>&lt;#view#&gt;.layer.masksToBounds = YES;
+&lt;#view#&gt;.layer.cornerRadius = &lt;#10#&gt;;
+&lt;#view#&gt;.layer.borderWidth = &lt;#1.0#&gt;;
+&lt;#view#&gt;.layer.borderColor = &lt;#UIColorFromRGB(0xEAEAEA)#&gt;.CGColor;</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>CF928046-DD33-4B44-ADF7-51D96D5A2CEB</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetPlatformFamily</key>
+	<string>iphoneos</string>
+	<key>IDECodeSnippetSummary</key>
+	<string></string>
+	<key>IDECodeSnippetTitle</key>
+	<string>o_radius border-圆角边框</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>

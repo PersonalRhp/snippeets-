@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>t_logan</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>All</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string> [[TLoganManager shareManager] thinkingAnalyticsSDK:@"&lt;#page_click_event#&gt;" properties:@{
+                @"&lt;#event_type#&gt;":@"&lt;#点击#&gt;",
+                @"&lt;#from_page#&gt;":@"&lt;#上级页面#&gt;",
+                @"&lt;#event_page#&gt;":@"&lt;#当前页面#&gt;",
+                @"&lt;#object_type#&gt;":@"&lt;#type#&gt;",
+                @"&lt;#target_object_id#&gt;":@"&lt;#id#&gt;",
+                @"&lt;#target_object_status#&gt;":@"&lt;#status#&gt;",
+                @"&lt;#target_user_id#&gt;":@"&lt;#userId#&gt;"
+            } flush:NO];</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>F108414B-8E68-47A4-A37D-CA21D44344CB</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetPlatformFamily</key>
+	<string>iphoneos</string>
+	<key>IDECodeSnippetSummary</key>
+	<string></string>
+	<key>IDECodeSnippetTitle</key>
+	<string>t_logan-埋点</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>

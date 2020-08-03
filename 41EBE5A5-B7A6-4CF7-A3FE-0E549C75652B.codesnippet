@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>o_ccv</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>All</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>UICollectionViewFlowLayout *&lt;#flowLayout#&gt; = [[UICollectionViewFlowLayout alloc] init];
+&lt;#flowLayout#&gt;.scrollDirection = &lt;#UICollectionViewScrollDirectionVertical#&gt;;
+&lt;#flowLayout#&gt;.itemSize = CGSizeMake(&lt;#10#&gt;, &lt;#10#&gt;);
+&lt;#flowLayout#&gt;.sectionInset = UIEdgeInsetsMake(&lt;#10#&gt;, &lt;#10#&gt;, &lt;#10#&gt;, &lt;#10#&gt;);
+&lt;#flowLayout#&gt;.minimumLineSpacing = &lt;#5#&gt;;
+&lt;#flowLayout#&gt;.minimumInteritemSpacing = &lt;#5#&gt;;
+        
+UICollectionView *&lt;#collectionView#&gt; = [[UICollectionView alloc] initWithFrame:&lt;#CGRectZero#&gt; collectionViewLayout:&lt;#flowLayout#&gt;];
+&lt;#collectionView#&gt;.backgroundColor = [UIColor clearColor];
+&lt;#collectionView#&gt;.showsVerticalScrollIndicator = NO;
+&lt;#collectionView#&gt;.showsHorizontalScrollIndicator = NO;
+&lt;#collectionView#&gt;.delegate = self;
+&lt;#collectionView#&gt;.dataSource = self;
+        
+&lt;#collectionView#&gt;.emptyDataSetDelegate = self;
+&lt;#collectionView#&gt;.emptyDataSetSource = self;
+        
+[&lt;#collectionView#&gt; registerClass:[&lt;#ClassName#&gt; class] forCellWithReuseIdentifier:NSStringFromClass(&lt;#ClassName#&gt;.class)];
+[&lt;#collectionView#&gt; registerClass:[&lt;#ClassName#&gt; class] forSupplementaryViewOfKind:UICollectionElementKindSectionHeader withReuseIdentifier:NSStringFromClass(&lt;#ClassName#&gt;.class)];
+[&lt;#collectionView#&gt; registerClass:[&lt;#ClassName#&gt; class] forSupplementaryViewOfKind:UICollectionElementKindSectionFooter withReuseIdentifier:NSStringFromClass(&lt;#ClassName#&gt;.class)];</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>41EBE5A5-B7A6-4CF7-A3FE-0E549C75652B</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetPlatformFamily</key>
+	<string>iphoneos</string>
+	<key>IDECodeSnippetSummary</key>
+	<string></string>
+	<key>IDECodeSnippetTitle</key>
+	<string>o_create collectionView-创建CollectionView</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>

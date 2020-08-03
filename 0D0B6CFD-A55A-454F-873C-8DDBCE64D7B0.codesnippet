@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>o_le</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>All</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>#pragma mark - DZNEmptyDataSetDelegate
+- (BOOL)emptyDataSetShouldAllowScroll:(UIScrollView *)scrollView {
+    return &lt;#YES#&gt;;
+}
+
+- (BOOL)emptyDataSetShouldDisplay:(UIScrollView *)scrollView {
+    return &lt;#YES#&gt;;
+}
+
+- (nullable UIView *)customViewForEmptyDataSet:(UIScrollView *)scrollView {
+    TBaseEmptyView *emptyView = [[TBaseEmptyView alloc] init];
+    if (![[Reachability reachabilityForInternetConnection] isReachable]) {
+        emptyView.title = @"无可用网络";
+        emptyView.tip = @"检查网络连接权限及当前网络状态";
+        emptyView.mode = TBaseEmptyViewMode_White;
+        emptyView.type = TBaseEmptyViewType_NoNetwork;
+    } else {
+        emptyView.title = @"暂无数据";
+        emptyView.tip = @"";
+        emptyView.mode = TBaseEmptyViewMode_White;
+        emptyView.type = TBaseEmptyViewType_NoCantent;
+    }
+    MJWeakSelf
+    emptyView.aReload = ^{
+        // 重新加载（用weakSelf调用）
+        &lt;#[weakSelf reload];#&gt;
+    };
+    return emptyView;
+}</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>0D0B6CFD-A55A-454F-873C-8DDBCE64D7B0</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetPlatformFamily</key>
+	<string>iphoneos</string>
+	<key>IDECodeSnippetSummary</key>
+	<string></string>
+	<key>IDECodeSnippetTitle</key>
+	<string>o_list empty-列表空态代理</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>

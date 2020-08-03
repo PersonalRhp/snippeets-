@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>o_cb</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>All</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>UIButton *&lt;#button#&gt; = [UIButton new];
+&lt;#button#&gt;.frame = CGRectMake(&lt;#0#&gt;, &lt;#0#&gt;, &lt;#100#&gt;, &lt;#30#&gt;);
+&lt;#button#&gt;.backgroundColor = &lt;#UIColorFromRGB(0xFFFFFF)#&gt;;
+[&lt;#button#&gt; setTitle:@"&lt;#标题#&gt;" forState:UIControlStateNormal];
+[&lt;#button#&gt; setTitle:@"&lt;#选中标题#&gt;" forState:UIControlStateSelected];
+[&lt;#button#&gt; setTitleColor:&lt;#UIColorFromRGB(0x000000)#&gt; forState:UIControlStateNormal];
+[&lt;#button#&gt; setTitleColor:&lt;#UIColorFromRGB(0xEAEAEA)#&gt; forState:UIControlStateSelected];
+&lt;#button#&gt;.titleLabel.font = [UIFont systemFontOfSize:&lt;#16#&gt;];
+[&lt;#button#&gt; setImage:[UIImage imageNamed:@"&lt;#imageName#&gt;"] forState:UIControlStateNormal];
+[&lt;#button#&gt; setImage:[UIImage imageNamed:@"&lt;#selectedImageName#&gt;"] forState:UIControlStateSelected];
+[&lt;#button#&gt; addTarget:self action:@selector(&lt;#buttonAction:#&gt;) forControlEvents:UIControlEventTouchUpInside];</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>D6C5465E-E3C6-4BFC-AFAD-83A1576DA817</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetPlatformFamily</key>
+	<string>iphoneos</string>
+	<key>IDECodeSnippetSummary</key>
+	<string></string>
+	<key>IDECodeSnippetTitle</key>
+	<string>o_create button-创建Button</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>

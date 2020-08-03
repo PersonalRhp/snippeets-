@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>o_cs</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>All</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>+ (instancetype)shareInstance {
+    static &lt;#ClassName#&gt; *_sharedSingleton = nil;
+    static dispatch_once_t onceToken;
+    dispatch_once(&amp;onceToken, ^{
+        // 不能再使用alloc方法，因为已经重写了allocWithZone，所以这里要调用父类的方法来分配空间
+        _sharedSingleton = [[super allocWithZone:NULL] init];
+    });
+    return _sharedSingleton;
+}
+
+// 防止外部调用alloc 或者 new
++ (instancetype)allocWithZone:(struct _NSZone *)zone {
+    return [&lt;#ClassName#&gt; shareInstance];
+}
+
+// 防止外部调用copy
+- (id)copyWithZone:(nullable NSZone *)zone {
+    return [&lt;#ClassName#&gt; shareInstance];
+}
+
+// 防止外部调用mutableCopy
+- (id)mutableCopyWithZone:(nullable NSZone *)zone {
+    return [&lt;#ClassName#&gt; shareInstance];
+}
+
+- (instancetype)init {
+    if (self == [super init]) {
+        // 初始化代码
+    }
+    return self;
+}</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>98AD2C11-1639-4BFE-ACD5-6F986375F9C4</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetPlatformFamily</key>
+	<string>iphoneos</string>
+	<key>IDECodeSnippetSummary</key>
+	<string></string>
+	<key>IDECodeSnippetTitle</key>
+	<string>o_create single-创建单例对象</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>
